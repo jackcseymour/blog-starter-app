@@ -49,6 +49,7 @@ export default function App() {
       ) : (
         <Article article={article} />
       )}
+      <footer>Styled by Jack Seymour</footer>
     </div>
   );
 }

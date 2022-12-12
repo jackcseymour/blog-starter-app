@@ -1,5 +1,12 @@
 html {
-  background-color: #faf9f9;
+  background: rgb(250, 249, 249);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 249, 249, 1) 0%,
+    rgba(190, 227, 219, 1) 40%,
+    rgba(137, 176, 174, 1) 70%,
+    rgba(85, 91, 110, 1) 99%
+  );
 }
 .App {
   display: grid;
@@ -16,6 +23,7 @@ header {
   color: #faf9f9;
   grid-column: 1 / span 2;
   padding: 10px 5px;
+  font-size: 26px;
 }
 
 form {
@@ -38,7 +46,22 @@ article {
 }
 
 nav {
-  background-color: #dee9ff;
+  background: linear-gradient(
+    90deg,
+    hsla(226, 13%, 38%, 1) 0%,
+    hsla(177, 20%, 61%, 1) 31%
+  );
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #bee3db;
+  text-align: center;
+  color: #faf9f9;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 nav p:hover {
@@ -48,10 +71,16 @@ nav p:hover {
 
 article .date {
   font-style: italic;
+  font-size: 24px;
 }
-
 article .body {
-  white-space: break-spaces;
+  font-size: 24px;
+  border: 1px solid black;
+  background-color: #faf9f9;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
 
 .error {
