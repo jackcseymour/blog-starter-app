@@ -1,3 +1,6 @@
+html {
+  background-color: #faf9f9;
+}
 .App {
   display: grid;
   grid-template-rows: min-content auto;
@@ -9,8 +12,8 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
-  color: white;
+  background-color: #89b0ae;
+  color: #faf9f9;
   grid-column: 1 / span 2;
   padding: 10px 5px;
 }
